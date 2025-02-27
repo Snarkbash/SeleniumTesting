@@ -28,3 +28,34 @@ C:\Users\JakeNorris\OneDrive - Cevitr Ltd\Documents\Code\SeleniumTesting\Seleniu
 C:\Users\JakeNorris\OneDrive - Cevitr Ltd\Documents\Code\SeleniumTesting\SeleniumTesting\bin\Debug\net8.0-windows\RBush.dll
 C:\Users\JakeNorris\OneDrive - Cevitr Ltd\Documents\Code\SeleniumTesting\SeleniumTesting\bin\Debug\net8.0-windows\SixLabors.Fonts.dll
 C:\Users\JakeNorris\OneDrive - Cevitr Ltd\Documents\Code\SeleniumTesting\SeleniumTesting\bin\Debug\net8.0-windows\System.IO.Packaging.dll
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\bin\Debug\net8.0-windows\selenium-manager\linux\selenium-manager
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\bin\Debug\net8.0-windows\selenium-manager\macos\selenium-manager
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\bin\Debug\net8.0-windows\selenium-manager\windows\selenium-manager.exe
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\bin\Debug\net8.0-windows\SeleniumTesting.exe
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\bin\Debug\net8.0-windows\SeleniumTesting.deps.json
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\bin\Debug\net8.0-windows\SeleniumTesting.runtimeconfig.json
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\bin\Debug\net8.0-windows\SeleniumTesting.dll
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\bin\Debug\net8.0-windows\SeleniumTesting.pdb
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\bin\Debug\net8.0-windows\ClosedXML.dll
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\bin\Debug\net8.0-windows\ClosedXML.Parser.dll
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.Framework.dll
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\bin\Debug\net8.0-windows\ExcelNumberFormat.dll
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\bin\Debug\net8.0-windows\RBush.dll
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\bin\Debug\net8.0-windows\WebDriver.dll
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\bin\Debug\net8.0-windows\SixLabors.Fonts.dll
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\bin\Debug\net8.0-windows\System.IO.Packaging.dll
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\obj\Debug\net8.0-windows\SeleniumTesting.csproj.AssemblyReference.cache
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\obj\Debug\net8.0-windows\SeleniumTesting.Form1.resources
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\obj\Debug\net8.0-windows\SeleniumTesting.csproj.GenerateResource.cache
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\obj\Debug\net8.0-windows\SeleniumTesting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\obj\Debug\net8.0-windows\SeleniumTesting.AssemblyInfoInputs.cache
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\obj\Debug\net8.0-windows\SeleniumTesting.AssemblyInfo.cs
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\obj\Debug\net8.0-windows\SeleniumTesting.csproj.CoreCompileInputs.cache
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\obj\Debug\net8.0-windows\SeleniumTesting.sourcelink.json
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\obj\Debug\net8.0-windows\Selenium.24E01A10.Up2Date
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\obj\Debug\net8.0-windows\SeleniumTesting.dll
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\obj\Debug\net8.0-windows\refint\SeleniumTesting.dll
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\obj\Debug\net8.0-windows\SeleniumTesting.pdb
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\obj\Debug\net8.0-windows\SeleniumTesting.genruntimeconfig.cache
+C:\Users\green\Documents\Code\SeleniumTesting\SeleniumTesting\obj\Debug\net8.0-windows\ref\SeleniumTesting.dll

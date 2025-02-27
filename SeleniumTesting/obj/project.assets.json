@@ -367,23 +367,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JakeNorris\\.nuget\\packages\\": {},
+    "C:\\Users\\green\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JakeNorris\\OneDrive - Cevitr Ltd\\Documents\\Code\\SeleniumTesting\\SeleniumTesting\\SeleniumTesting.csproj",
+      "projectUniqueName": "C:\\Users\\green\\Documents\\Code\\SeleniumTesting\\SeleniumTesting\\SeleniumTesting.csproj",
       "projectName": "SeleniumTesting",
-      "projectPath": "C:\\Users\\JakeNorris\\OneDrive - Cevitr Ltd\\Documents\\Code\\SeleniumTesting\\SeleniumTesting\\SeleniumTesting.csproj",
-      "packagesPath": "C:\\Users\\JakeNorris\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JakeNorris\\OneDrive - Cevitr Ltd\\Documents\\Code\\SeleniumTesting\\SeleniumTesting\\obj\\",
+      "projectPath": "C:\\Users\\green\\Documents\\Code\\SeleniumTesting\\SeleniumTesting\\SeleniumTesting.csproj",
+      "packagesPath": "C:\\Users\\green\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\green\\Documents\\Code\\SeleniumTesting\\SeleniumTesting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\JakeNorris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\green\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

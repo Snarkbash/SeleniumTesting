@@ -1,16 +1,7 @@
-using System;
-using System.IO;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Edge;
 using ClosedXML.Excel;
-using System.Threading;
-using System.Diagnostics;
-using DocumentFormat.OpenXml.Bibliography;
 using DocumentFormat.OpenXml.Spreadsheet;
-using DocumentFormat.OpenXml.Wordprocessing;
-using static OpenQA.Selenium.BiDi.Modules.BrowsingContext.Locator;
-using System.Data;
-using DocumentFormat.OpenXml.Drawing;
 
 namespace SeleniumTesting
 {
@@ -34,10 +25,10 @@ namespace SeleniumTesting
 
         }
 
-        private void UseExcel()
+        private XLWorkbook CreateWorkbook(string url) 
         {
-            using (var workbook = new XLWorkbook())
-            {
+                var workbook = new XLWorkbook();
+
                 var worksheet = workbook.Worksheets.Add("Sheet1");
 
                 string filePath = "Output " + System.DateTime.Now.ToString("dd.MM.yy") + ".xlsx";
@@ -49,24 +40,44 @@ namespace SeleniumTesting
                 DataGridViewRow lastRow = ResultTable.Rows[lastRowIndex];
 
                 for (int col = 0; col < ResultTable.ColumnCount; col++)
-                {   //INIT HEADERS
-                    worksheet.Cell(1, col + 1).Value = ResultTable.Columns[col].HeaderText;
-                    worksheet.Cell(1, col + 1).Style.Font.Bold = true;
-
-                    worksheet.Cell(newRange + 1, col + 1).Value = lastRow.Cells[col].Value?.ToString();
+                {
+                worksheet.Cell(1, 1).Value = "URL: " + url;
+                worksheet.Cell(2, col + 1).Value = ResultTable.Columns[col].HeaderText;
+                worksheet.Cell(2, col + 1).Style.Font.Bold = true;
                 }
-                
+
                 workbook.SaveAs(filePath);
-            }
+
+                return workbook;
         }
 
-        private void WebTest()
+        private void UseExcel(XLWorkbook workbook, DataGridViewRow row)
+        {
+                var worksheet = workbook.Worksheet("Sheet1");
+
+                string filePath = "Output " + System.DateTime.Now.ToString("dd.MM.yy") + ".xlsx";
+
+                int lastRowIndex = ResultTable.RowCount - 2;
+
+                int newRange = worksheet.RowsUsed().Count();
+
+                for (int col = 0; col < ResultTable.ColumnCount; col++)
+                {
+                    worksheet.Cell(newRange + 1, col + 1).Value = row.Cells[col].Value?.ToString();
+                }
+
+                workbook.SaveAs(filePath);
+        }
+
+        private void WebTest(string url)
         {
             if (ResultTable.Rows.Count == 1) return;
 
+            XLWorkbook workbook = CreateWorkbook(url);
+
             IWebDriver driver = new EdgeDriver();
 
-            driver.Navigate().GoToUrl("https://seleniumbase.io/demo_page");
+            driver.Navigate().GoToUrl(url); 
 
             foreach (DataGridViewRow row in ResultTable.Rows)
             {
@@ -79,9 +90,10 @@ namespace SeleniumTesting
 
                 PerformAction(locator, ID, action, textInput, driver, row);
 
-                UseExcel();
+                UseExcel(workbook, row);
+
             }
-                driver.Quit();
+            driver.Quit();
         }
         
 
@@ -135,7 +147,7 @@ namespace SeleniumTesting
         }
         private void StartTest_Click(object sender, EventArgs e)
         {
-            WebTest();
+            WebTest("https://seleniumbase.io/demo_page");
         }
 
         private void Clear_Click(object sender, EventArgs e)
